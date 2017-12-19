@@ -60,6 +60,7 @@ BEGIN
 DBMS_OUTPUT.PUT_LINE(SYSTIMESTAMP);
 END;
 /
+
 set define on;
 
 spool off;
