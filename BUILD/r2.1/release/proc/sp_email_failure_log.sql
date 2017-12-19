@@ -52,8 +52,6 @@ create or replace procedure sp_email_failure_log(
      V_ISSPONSOR                VARCHAR2(1 CHAR);
      V_NOT_EXIST                VARCHAR2(32000);
 
- 
-
  BEGIN
     V_TEMP_ORDRBY := '';
 
