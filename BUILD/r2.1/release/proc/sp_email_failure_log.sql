@@ -44,15 +44,12 @@ create or replace procedure sp_email_failure_log(
   --  V_COUNTRYID               VARCHAR2(9999 BYTE);
     V_FROMDATE                DATE;
     V_TODATE                  DATE;
-     -- V_FACILITY               VARCHAR2(1000);
-   /* type  V_ROLENAME is varray(200) of varchar2(1000);
-    L_ROLENAME V_ROLENAME;
-     */
      V_ORGID                    NUMBER;
      V_ISSPONSOR                VARCHAR2(1 CHAR);
      V_NOT_EXIST                VARCHAR2(32000);
 
- 
+
+
  BEGIN
     V_TEMP_ORDRBY := '';
 
@@ -305,4 +302,3 @@ create or replace procedure sp_email_failure_log(
    OPEN OP_REPORT_DATA FOR V_FINAL_QUERY ;
 
   END sp_email_failure_log;
-/
