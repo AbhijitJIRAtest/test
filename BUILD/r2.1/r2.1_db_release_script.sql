@@ -47,6 +47,8 @@ prompt -- pre_scripts.sql
 --@./release/trg/triggers.sql
 prompt -- proc.sql
 @./release/proc/sp_email_failure_log.sql
+prompt -- proc.sql
+@./release/proc/prc_calculator.sql
 prompt --synonyms.sql 
 @./release/syn/synonyms.sql
 prompt --grants.sql 
